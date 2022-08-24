@@ -1,0 +1,65 @@
+1. Which of the following best describes a test driver?
+ 
+ a. It is a special purpose implementation of a software module, used to develop or test a component that calls it.
+ b. It is a software component that replaces another component that takes care of the control and/or the calling of a software component.
+ Ans. (b) It is a software component that replaces another component that takes care of the control and/or the calling of a software component.
+
+2. If method A uses a variable v shared with method B, where A writes to v and B reads from v, then, it is an example of which kind of coupling interface listed below?
+ 
+ a. Parameter coupling.
+ b. Interface coupling.
+ c. External coupling.
+ d. Shared data coupling.
+ Ans. (d) Shared data coupling
+
+3. To test sequencing constraints that occur as requirements specification, which of the following tests are used?
+
+ a. Tests are inputs to sequencing constraints that violate the constraints.
+ b. Tests are inputs to sequencing constraints that satisfy the constraints.
+ c. Tests are sequences of method calls, as they occur in the specification.
+ d. Tests are randomly generated sequencing constraints.
+ Ans. (c) Tests are sequences of method calls, as they occur in the specification
+
+4. A simple path from the last definition to the first use of a coupling variable is called as . . . . . . . . ..
+
+ a. A du-path.
+ b. A coupling du-path.
+ Ans. (b) A coupling du-path
+
+5. State Yes or No: Are control flow graphs representing code the same as finite state machines that represent the same code?
+ 
+ a. Yes
+ b. No
+ Ans. (b) No
+
+6. Which of the following is true with reference to the graph satisfying the sequencing constraints?
+ 
+ a. All the sequencing constraints are satisfied.
+ b. Constraints (1) and (2) are satisfied but (3) and (4) are not.
+ c. Constraints (1), (2) and (3) are satisfied but (4) is not.
+ d. All constraints are violated.
+ Ans. (c) Constraints (1), (2) and (3) are satisfied but (4) is not
+
+7. State true or false: The path (1,4,5,7) satisfies constraint (4).
+
+ a. True.
+ b. False.
+ Ans. (b) False
+
+8. State true or false: The path (1,2,3,7) satisfies all the constraints.
+
+ a. True.
+ b. False.
+ Ans. (a) True
+
+9. State yes or no: Does the path (1,4,6,7) violate any of the constraints?
+ 
+ a. Yes.
+ b. No.
+ Ans. (b) No
+
+10. State true or false: The path (1,4,6,4,6,7) satisfies all the constraints.
+
+ a. Yes.
+ b. No.
+ Ans. (a) Yes
